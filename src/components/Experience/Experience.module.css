@@ -73,7 +73,7 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: linear-gradient(90deg, #19376d, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg, rgba(137, 0, 147, 0.344), rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
   transition: background-color 0.5s ease, background 0.5s ease; /* Smooth transition for background color and gradient */

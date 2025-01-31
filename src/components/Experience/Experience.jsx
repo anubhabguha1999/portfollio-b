@@ -120,7 +120,7 @@ export const Experience = () => {
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>
         Experience{" "}
-        <Link to="/qualifications" className={styles.linkStyle}>
+        {/* <Link to="/qualifications" className={styles.linkStyle}>
           Know About Anubhab's Qualifications
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ export const Experience = () => {
               d="M1.5 8a.5.5 0 0 1 .5-.5h10.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 1 1-.708-.708L12.793 8.5H2a.5.5 0 0 1-.5-.5z"
             />
           </svg>
-        </Link>
+        </Link> */}
       </h2>
 
       <div className={styles.content}>
