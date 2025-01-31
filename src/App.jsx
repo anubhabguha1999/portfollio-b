@@ -6,7 +6,6 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Qualifications } from "./components/Qualifications/Qualifications";
 import { Navbar } from "./components/Navbar/Navbar";
-import { Projects } from "./components/Projects/Projects";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

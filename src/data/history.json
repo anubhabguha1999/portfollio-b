@@ -1,10 +1,10 @@
 [
   {
-    "role": "Software Developer",
-    "organisation": "SoftSensor.ai",
-    "startDate": "July, 2023",
+    "role": "Senior Software Engineer",
+    "organisation": "Persistent Systems",
+    "startDate": "January, 2022",
     "endDate": "Present",
-    "experiences": ["React","Node.Js","Jest.js", "Tailwind CSS","Redux","Redux Saga", "Material UI", "TypeScript","JavaScript","HTML","CSS", "GitHub"],
-    "imageSrc": "history/SoftSensor.png"
+    "experiences": ["Python","Node.Js","Tailwind CSS","Redux","Redux Saga", "Material UI","JavaScript","GitHub"],
+    "imageSrc": "history/Persistent.png"
   }
 ]

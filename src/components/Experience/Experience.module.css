@@ -17,13 +17,15 @@
   justify-items: center;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10
 }
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   margin-top: 14px;
+  gap: 40px;
 }
 
 .skills {
@@ -61,7 +63,7 @@
 }
 
 .history {
-  width: 45%;
+  width: 100%;
   display: flex;
   justify-content: 'start';
   flex-direction: column;
@@ -77,6 +79,10 @@
   border-radius: 10px;
   padding: 24px;
   transition: background-color 0.5s ease, background 0.5s ease; /* Smooth transition for background color and gradient */
+  border-image-source: linear-gradient(90deg, #ac00bf, transparent);
+  border-image-slice: 1;
+  border-image-width: 5px;
+  animation: snakeAnimation 5s infinite;
 }
 
 .historyItem img {
@@ -129,45 +135,40 @@
 /* sad */
 @keyframes snakeAnimation {
   0% { 
-    border-image-source: linear-gradient(90deg, #04152d, transparent); 
+    border-image-source: linear-gradient(90deg, #71028a, transparent); 
     border-image-slice: 1; 
     border-image-width:  5px; 
-    box-shadow: 0 0 15px 5px rgba(4, 21, 45, 0.6); 
+    box-shadow: 0 0 15px 5px #71028a; 
   }
   25% { 
-    border-image-source: linear-gradient(180deg, #04152d, transparent); 
+    border-image-source: linear-gradient(180deg, #d000ff, transparent); 
     border-image-slice: 1; 
     border-image-width: 5px; 
-    box-shadow: 0 0 15px 5px rgba(4, 21, 45, 0.6); 
+    box-shadow: 0 0 15px 5px rgba(255, 0, 191, 0.6); 
   }
   50% { 
-    border-image-source: linear-gradient(270deg, #04152d, transparent); 
+    border-image-source: linear-gradient(270deg, #71028a, transparent); 
     border-image-slice: 1; 
     border-image-width: 5px; 
-    box-shadow: 0 0 15px 5px rgba(4, 21, 45, 0.6); 
+    box-shadow: 0 0 15px 5px #71028a; 
   }
   75% { 
-    border-image-source: linear-gradient(360deg, #04152d, transparent); 
+    border-image-source: linear-gradient(360deg, #d000ff, transparent); 
     border-image-slice: 1; 
     border-image-width: 5px; 
-    box-shadow: 0 0 15px 5px rgba(4, 21, 45, 0.6); 
+    box-shadow: 0 0 15px 5px rgba(255, 0, 191, 0.6); 
   }
   100% { 
-    border-image-source: linear-gradient(90deg, #04152d, transparent); 
+    border-image-source: linear-gradient(90deg, #71028a, transparent); 
     border-image-slice: 1; 
     border-image-width: 5px; 
-    box-shadow: 0 0 15px 5px rgba(4, 21, 45, 0.6); 
+    box-shadow: 0 0 15px 5px #71028a; 
   }
 }
 
 /* Apply animation on hover */
 .historyItem:hover {
-  background-color: #000000; /* Black background color on hover */
-  background: #000000; /* Ensure that gradient background is overridden */
-  border-image-source: linear-gradient(90deg, #04152d, transparent);
-  border-image-slice: 1;
-  border-image-width: 5px;
-  animation: snakeAnimation 2s infinite; /* Apply the snake animation */
+   /* Apply the snake animation */
 }
 
 
