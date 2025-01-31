@@ -50,7 +50,7 @@ function App() {
   return (
     <Router>
       <div
-        className={styles.App}
+        className={`${styles.App} ${styles.rainingStars}`} // Add rainingStars class
         ref={appRef}
         style={{
           backgroundColor: backgroundColor,
