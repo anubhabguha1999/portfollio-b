@@ -1,0 +1,10 @@
+[
+  {
+    "role": "Software Developer",
+    "organisation": "SoftSensor.ai",
+    "startDate": "July, 2023",
+    "endDate": "Present",
+    "experiences": ["React","Node.Js","Jest.js", "Tailwind CSS","Redux","Redux Saga", "Material UI", "TypeScript","JavaScript","HTML","CSS", "GitHub"],
+    "imageSrc": "history/SoftSensor.png"
+  }
+]
