@@ -7,6 +7,7 @@ import { Hero } from "./components/Hero/Hero";
 import { Qualifications } from "./components/Qualifications/Qualifications";
 import { Navbar } from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Certificates } from "./components/Projects/Projects";
 
 function App() {
   const appRef = useRef(null);
@@ -65,7 +66,7 @@ function App() {
                 <Hero />
                 <About />
                 <Experience />
-                {/* <Projects /> */}
+                <Certificates />
                 <Contact />
               </>
             }

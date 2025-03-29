@@ -1,51 +1,33 @@
 [
   {
-    "title": "Weather App",
-    "imageSrc": "projects/project.jpg",
-    "description": "Weather app that can say the weather of your location",
-    "skills": ["React", "HTML", "CSS", "JavaScript"],
-    "demo": "Weather app that can say the weather of your location",
-    "source": "https://github.com/anubhabguha1999/Weather-app"
+    "title": "IBM watsonx.ai",
+    "imageSrc": "projects/cxertificate.jpeg",
+    "description": "IBM watsonx.ai Technician Essentials"
   },
   {
-    "title": "Google Forms Clone",
-    "imageSrc": "projects/project.jpg",
-    "description": "This is clone of Google forms and is made like its functionality too",
-    "skills": ["React", "HTML", "CSS", "JavaScript"],
-    "demo": "https://github.com/anubhabguha1999/Clone-google-forms",
-    "source": "https://github.com/anubhabguha1999/Clone-google-forms"
+    "title": "Top Talent 2023",
+    "imageSrc": "projects/cxertificate2.jpeg",
+    "description": "Identified as Top Talent 2023"
   },
   {
-    "title": "To Do List",
-    "imageSrc": "projects/project.jpg",
-    "description": "To Do List",
-    "skills": ["React", "HTML", "CSS", "JavaScript"],
-    "demo": "https://github.com/anubhabguha1999/to-do-list",
-    "source": "https://github.com/anubhabguha1999/to-do-list"
+    "title": "Persistent Systems",
+    "imageSrc": "projects/cxertificate3.jpeg",
+    "description": "Vravo - Team Awards for resolving defects in the quarter"
   },
   {
-    "title": "Speech Emotion Recognition",
-    "imageSrc": "projects/project.jpg",
-    "description": "Speech Emotion Recognition",
-    "skills": ["Jupyter", "HTML", "CSS", "JavaScript"],
-    "demo": "https://github.com/anubhabguha1999/Speech-Emotion-Recognition",
-    "source": "https://github.com/anubhabguha1999/Speech-Emotion-Recognition"
+    "title": "Persistent University",
+    "imageSrc": "projects/cxertificate4.jpeg",
+    "description": "GenAI Foundation - GenAI Assisted Coding useing Amazon CodeWhisper on FY'2023"
   },
   {
-    "title": "Search Movies",
-    "imageSrc": "projects/project.jpg",
-    "description": "Search Movies",
-    "skills": ["Jupyter", "HTML", "CSS", "JavaScript"],
-    "demo": "https://github.com/anubhabguha1999/Search-Movies-reactJS",
-    "source": "https://github.com/anubhabguha1999/Search-Movies-reactJS"
+    "title": "IBM Certified Administrator",
+    "imageSrc": "projects/cxertificate5.jpeg",
+    "description": "IBM Professional Certifiaction Program"
   },
   {
-    "title": "Face Recognitions",
-    "imageSrc": "projects/project.jpg",
-    "description": "Search Movies",
-    "skills": ["Jupyter", "HTML", "CSS", "JavaScript"],
-    "demo": "https://github.com/anubhabguha1999/Face-Recognition",
-    "source": "https://github.com/anubhabguha1999/Face-Recognition"
+    "title": "Azure",
+    "imageSrc": "projects/cxertificate6.jpeg",
+    "description": "Azure CLoud Engineer"
   }
 
 ]

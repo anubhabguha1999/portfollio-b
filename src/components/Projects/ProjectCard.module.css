@@ -59,7 +59,7 @@
   box-shadow: 0 16px 14px rgba(0, 0, 0, 0.2);
   padding: 15px;
   max-width: 350px;
-  height: 25rem; /* Reduced height */
+  height: 20rem; /* Reduced height */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
   position: relative;
