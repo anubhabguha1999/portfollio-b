@@ -20,8 +20,16 @@
     "imageSrc": "skills/node.png"
   },
   {
+    "title": "Cloud",
+    "imageSrc": "skills/cloud.png"
+  },
+  {
     "title": "graphQL",
     "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/AWS.png"
   },
   {
     "title": "GitHub",
