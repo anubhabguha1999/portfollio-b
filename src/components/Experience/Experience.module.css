@@ -110,6 +110,9 @@
   list-style-type: disc;
   margin-left: 17px;
 }
+/* .certificate {
+  width: "70%" ;
+} */
 
 @media screen and (max-width: 830px) {
   .content {
@@ -131,6 +134,19 @@
   .title {
     flex-direction:column ;
   }
+  .historyItemDetails h3 {
+    font-size: 20px;
+  }
+  
+  .historyItemDetails p {
+    font-size: 10px;
+  }
+  .expoerence {
+    font-size: 20px;
+  }
+  /* .certificate img{
+    width: "20%" ;
+  } */
 }
 /* sad */
 @keyframes snakeAnimation {

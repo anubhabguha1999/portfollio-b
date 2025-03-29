@@ -91,6 +91,12 @@ margin-right: 5;
   .heroImg {
     width: 90%; /* Adjust width for mobile view */
   }
+  .description {
+    font-size: 20px;
+  }
+  .contactBtn {
+    font-size: 20px;
+  }
 }
 
 

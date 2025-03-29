@@ -98,6 +98,7 @@
 }
 
 .aboutItem p {
+  margin-top: 20px;
   font-size: 25px;
 }
 
@@ -148,7 +149,10 @@
   .aboutItems {
     margin-top: 29px;
   }
-
+  .aboutItemText p{
+    margin-top: 20px;
+    font-size: 15px;
+  }
   .aboutItem {
     padding-left: 0;
     padding-right: 0;

@@ -142,8 +142,7 @@ export const Experience = () => {
 
         <h2 className={styles.title} >Certificates </h2>
         <div style={{display: 'flex', justifyContent: 'center'}} >
-
-          <img src={getImageUrl(certificate?.[0]?.imageSrc)} alt="" style={{ width: "70%" }}/>
+          <img src={getImageUrl(certificate?.[0]?.imageSrc)} alt="" className={styles?.certificate} style={{width: "80%" }}/>
         </div>
         </div>
         <ul className={styles.history}>
@@ -167,7 +166,7 @@ export const Experience = () => {
                 <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                 <ul>
                   {historyItem.experiences.map((experience, id) => (
-                    <li key={id}>{experience}</li>
+                    <li key={id} className={styles?.expoerence}>{experience}</li>
                   ))}
                 </ul>
               </div>
