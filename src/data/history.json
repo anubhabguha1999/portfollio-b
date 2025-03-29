@@ -4,7 +4,7 @@
     "organisation": "Persistent Systems",
     "startDate": "January, 2022",
     "endDate": "Present",
-    "experiences": ["Python","Node.Js","Tailwind CSS","Redux","Redux Saga", "Material UI","JavaScript","GitHub"],
+    "experiences": ["Python","Fast API","SQL","Mongo","C++","Node.Js","JavaScript","GitHub"],
     "imageSrc": "history/Persistent.png"
   }
 ]

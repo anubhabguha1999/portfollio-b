@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
+import certificate from "../../data/certificate.json";
 import { getImageUrl } from "../../utils";
 import { Link } from "react-router-dom";
 
@@ -137,6 +138,14 @@ export const Experience = () => {
             </div>
           ))}
         </ul>
+        <div style={{display: 'flex', flexDirection:'column', gap: 10}}>
+
+        <h2 className={styles.title} >Certificates </h2>
+        <div style={{display: 'flex', justifyContent: 'center'}} >
+
+          <img src={getImageUrl(certificate?.[0]?.imageSrc)} alt="" style={{ width: "70%" }}/>
+        </div>
+        </div>
         <ul className={styles.history}>
           {history.map((historyItem, id) => (
             <li key={id} className={styles.historyItem}>
@@ -165,6 +174,7 @@ export const Experience = () => {
             </li>
           ))}
         </ul>
+       
       </div>
     </section>
   );
