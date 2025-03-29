@@ -138,13 +138,6 @@ export const Experience = () => {
             </div>
           ))}
         </ul>
-        <div style={{display: 'flex', flexDirection:'column', gap: 10}}>
-
-        <h2 className={styles.title} >Certificates </h2>
-        <div style={{display: 'flex', justifyContent: 'center'}} >
-          <img src={getImageUrl(certificate?.[0]?.imageSrc)} alt="" className={styles?.certificate} style={{width: "80%" }}/>
-        </div>
-        </div>
         <ul className={styles.history}>
           {history.map((historyItem, id) => (
             <li key={id} className={styles.historyItem}>
