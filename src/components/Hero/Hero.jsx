@@ -36,7 +36,7 @@ export const Hero = () => {
         </h1>
         <pre className={styles.description}>{textWithAnimation}</pre>
         <a
-          href="mailto:anubhabguha1999@gmail.com"
+          href="mailto:banerjeeashmita7@gmail.com"
           className={styles.contactBtn}
         >
           Contact Me
