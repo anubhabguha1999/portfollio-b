@@ -59,7 +59,7 @@ export const Experience = () => {
     flexWrap: "wrap",
     justifyContent: "center",
     maxWidth: "1200px",
-    gap: "60px",
+    gap: "30px",
   };
 
   const skillStyle = {
@@ -130,7 +130,7 @@ export const Experience = () => {
                   <img
                     src={getImageUrl(skill.imageSrc)}
                     alt={skill.title}
-                    style={{ width: "70px" }}
+                    style={{ width: "60px" }}
                   />
                 </div>
               </li>
